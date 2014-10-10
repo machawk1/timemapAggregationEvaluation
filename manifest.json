@@ -1,0 +1,11 @@
+{
+   "content_scripts": [ {
+      "js": [ "js/jquery.js", "js/tmFetchTest.js"],
+      "matches": [ "<all_urls>"]
+   } ],
+   "description": "Timemap Aggregation Evaluation",
+  "manifest_version": 2,
+   "name": "Timemap Aggregation Evaluation",
+   "permissions": [ "storage", "tabs", "\u003Call_urls>" ],
+   "version": "0.1"
+}
